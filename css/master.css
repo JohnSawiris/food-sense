@@ -1,0 +1,141 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  color: #34AC98;
+}
+
+.side-header {
+  background-color: #000;
+  background: url('../img/food-sense-header.png');
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.side-nav-bar {
+  list-style: none;
+  padding: 0;
+}
+
+.side-nav-bar li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.side-nav-bar li a {
+  font-style: italic;
+  height: 32px;
+  padding: 10px 10px 10px 40px;
+  background-repeat: no-repeat;
+  background-position: 0% 45%;
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+a#taste {
+  background-image: url('../img/nav-tastemakers.png');
+}
+
+a#blog {
+  background-image: url('../img/nav-blog.png');
+}
+
+a#list {
+  background-image: url('../img/nav-alist.png');
+}
+
+a#contribute {
+  background-image: url('../img/nav-contribute.png');
+}
+
+a#about {
+  background-image: url('../img/nav-about.png');
+}
+
+.row.main-nav-bar {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-nav-bar .box {
+  padding: 30px 20px 10px;
+  background-color: #eff8f7;
+}
+
+.main-nav-bar .box a {
+  color: #60BEAE;
+}
+.main-nav-bar .box h3 {
+  font-size: 1em;
+  line-height: 0.4em;
+}
+.main-nav-bar .box p {
+  font-style: italic;
+  font-size: 0.7em;
+}
+
+.subscribe-bar {
+  font-size: 0.7em;
+  border-top: 1px dashed #E5E5E5;
+  border-bottom: 1px dashed #E5E5E5;
+  background-image: url(../img/icon-mailinglist.png);
+  background-repeat: no-repeat;
+  background-position: 1% 38%;
+  padding: 10px 38px 0;
+  margin: 15px 0px;
+}
+
+.subscribe-bar p {
+  margin-bottom: 10px;
+}
+
+.gallery img{
+  width: 185px;
+  padding: 10px;
+}
+
+.gallery h4 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.gallery {
+  font-size: .8rem;
+}
+
+.bottom-nav {
+  font-size: .7rem;
+}
+
+.bottom-nav p {
+  color: #999;
+}
+
+.border-top {
+  border-top: 2px solid #eee;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .side-header, .side-nav-bar, .side-nav-bar li {
+    display: inline-block;
+  }
+
+  .side-nav-bar li {
+    height: 70px;
+  }
+
+  .side-nav-bar li a {
+    display: inline;
+    font-style: italic;
+    height: 60px;
+    padding: 20px 0 10px 20px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: 70% -45%;
+    font-weight: 400;
+    font-size: .9rem;
+  }
+}
