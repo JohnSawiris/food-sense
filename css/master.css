@@ -119,19 +119,27 @@ a#about {
 }
 
 @media screen and (max-width: 991px) {
-  .side-header, .side-nav-bar, .side-nav-bar li {
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  .side-header, .side-nav-bar {
     display: inline-block;
+  }
+
+  .side-header {
+    border-radius: 0%;
   }
 
   .side-nav-bar li {
     height: 70px;
+    text-align: center;
+    display: inline;
   }
 
   .side-nav-bar li a {
-    display: inline;
     font-style: italic;
-    height: 60px;
-    padding: 20px 0 10px 20px;
+    padding: 20px 0 0 20px;
     margin-right: 8px;
     background-repeat: no-repeat;
     background-position: 70% -45%;
